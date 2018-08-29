@@ -1,3 +1,14 @@
+; C Code
+; int a = ...; #qualquer valor
+; int b = ...;
+; int c = …;
+; int x = …;
+; x = 0;
+; if ( a >= 0 && b <= 64 && c > 24 )
+; x = 1;
+
+# ---------------------------------
+
 main:
     li a0, 5  # a
     li a1, 10 # b

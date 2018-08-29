@@ -1,3 +1,15 @@
+; C Code
+; int a = 5;
+; int b = 4;
+; int m = 12;
+; m = a;
+; if ( b == m )
+; m = b - a;
+; else 
+; 		m = a - b;
+
+# ---------------------------
+
 main: 
     li a0, 5
     li a1, 4

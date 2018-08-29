@@ -1,4 +1,29 @@
-   li a0, 0
+; C Code
+; int x13, x15;
+; int x10 = 0;
+; int x11 = 20;
+; int x12 = 14;
+; int x14 = 0;
+
+; for(x10=0 ; x10<10 ; x10++){
+;     if(x11 < x12){
+;         x13 = 15;
+;         x14 ++;
+;     }
+;     else{
+;         x13 = 13;
+;         x12++;
+;     }
+;     printAll();
+; }
+
+; if(x12> x14)
+;     x15 = 1;
+
+# ---------------------
+   
+   # Assembly Code
+    li a0, 0
     li a1, 20
     li a2, 14
     li a4, 0
